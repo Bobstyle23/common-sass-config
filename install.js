@@ -10,6 +10,10 @@ const directories = [
     src: path.join(__dirname, "base"),
     dest: path.join(process.cwd(), "base"),
   },
+  {
+    src: path.join(__dirname, "main.scss"),
+    dest: path.join(process.cwd(), "main.scss"),
+  },
 ];
 
 async function compareAndCopy(src, dest) {
