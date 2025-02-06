@@ -1,13 +1,10 @@
 {
   "name": "common-sass-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Reusable sass configuration to save time from writing boilerplate code all over again'",
   "main": "main.css",
   "files": [
-    "abstracts",
-    "base",
-    "main.scss",
-    "install.js"
+    "sass"
   ],
   "browserslist": [
     "last 5 versions"

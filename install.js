@@ -3,16 +3,8 @@ const path = require("path");
 
 const directories = [
   {
-    src: path.join(__dirname, "abstracts"),
-    dest: path.join(process.cwd(), "abstracts"),
-  },
-  {
-    src: path.join(__dirname, "base"),
-    dest: path.join(process.cwd(), "base"),
-  },
-  {
-    src: path.join(__dirname, "main.scss"),
-    dest: path.join(process.cwd(), "main.scss"),
+    src: path.join(__dirname, "sass"),
+    dest: path.join(process.cwd(), "sass"),
   },
 ];
 
