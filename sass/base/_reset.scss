@@ -9,11 +9,26 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  hanging-punctuation: first last;
 }
 
 body {
   line-height: 1;
   font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  max-width: 75ch;
+  text-wrap: pretty;
 }
 
 a {
@@ -22,7 +37,6 @@ a {
   &:active,
   &:focus {
     text-decoration: none;
-    color: #000;
   }
 
   &:hover {
@@ -30,10 +44,12 @@ a {
   }
 }
 
-img {
+img,
+video,
+picture,
+svg {
   display: block;
-  width: 100%;
-  height: auto;
+  max-width: 100%;
 }
 
 ul,
@@ -48,3 +64,5 @@ button {
     cursor: pointer;
   }
 }
+
+/* NOTE: use lvh, svh, or dvh instead vh */
