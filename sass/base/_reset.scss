@@ -10,6 +10,9 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   hanging-punctuation: first last;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 body {
@@ -52,8 +55,11 @@ svg {
   max-width: 100%;
 }
 
-ul,
-ol {
+input,button, textarea, select {
+  font: inherit;
+}
+
+[rol="list"] {
   list-style: none;
 }
 
