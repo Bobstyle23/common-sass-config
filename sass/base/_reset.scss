@@ -60,11 +60,14 @@ svg {
   //* Add width: 100% if needed to some images
 }
 
-input,button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-[rol="list"] {
+[role="list"] {
   list-style: none;
 }
 
