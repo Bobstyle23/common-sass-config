@@ -10,3 +10,8 @@
   line-height: $height;
   letter-spacing: $spacing;
 }
+
+@mixin containerWidth($width) {
+  max-width: $width;
+  margin-inline: auto;
+}

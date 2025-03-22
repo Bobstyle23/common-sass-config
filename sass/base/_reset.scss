@@ -21,6 +21,7 @@ html {
 body {
   line-height: 1;
   font-weight: 400;
+  @include containerWidth(144rem);
 }
 
 h1,
